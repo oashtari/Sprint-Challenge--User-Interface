@@ -66,6 +66,43 @@ p {
     line-height: 1.4;
 }
 
+/* NAVIGATION SECTION  */
+
+nav {
+	/* padding-left: 10px;
+	padding-right: 10px; */
+    width: 800px;
+    margin: 40px auto 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+	/* justify-content: space-evenly; */
+}
+
+/* .nav_image {
+    justify-content: flex-start;
+} */
+.nav_class  {
+    /* width: 100% */
+	/* vertical-align: baseline; */
+    font-size: .75rem;
+    justify-content: space-around;
+}
+
+
+.jumbo_image {
+    width: 800px;
+	margin: 0 auto;
+	/* width: 100%; */
+	background-image: url("/Users/omid/Documents/Lambda/Web_Fundamentals/UI_and_Git/UI_and_git_challenge/Sprint-Challenge--User-Interface/img/jumbo.jpg" alt="Looks like lights on a highway.");
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 250px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -135,12 +172,39 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    align-items: flex-start;
+    padding: 20px 0% 20px 2%;
     font-size: 14px;
 }
 
+footer div {
+    width: 40%;
+}
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ABOUT PAGE  */
+
+.first_section {
+ display: flex;
+ 
+}
+
+.second_section {
+
+}
+
+.about_buttons {
+	border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	width: 200px;
+	padding: 10px 30px 10px 30px;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-left: 0px;
 }
