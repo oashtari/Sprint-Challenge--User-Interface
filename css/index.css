@@ -80,9 +80,7 @@ nav {
 	/* justify-content: space-evenly; */
 }
 
-/* .nav_image {
-    justify-content: flex-start;
-} */
+
 .nav_class  {
     /* width: 100% */
 	/* vertical-align: baseline; */
@@ -188,13 +186,27 @@ footer nav a {
 
 /* ABOUT PAGE  */
 
+.about_section {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
 .first_section {
  display: flex;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ border-bottom: 1px dashed black;
  
 }
 
 .second_section {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
+.bottom_section {
+    padding-top: 20px;
 }
 
 .about_buttons {
