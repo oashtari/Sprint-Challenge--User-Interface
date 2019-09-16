@@ -75,17 +75,23 @@ nav {
     margin: 40px auto 40px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-end;
-	/* justify-content: space-evenly; */
+    /* justify-content: space-evenly; */
+
 }
 
 
+
+
 .nav_class  {
-    /* width: 100% */
+    width: 100%;
 	/* vertical-align: baseline; */
     font-size: .75rem;
     justify-content: space-around;
+
+    margin-left: 40px;
+    /* align-self: flex-end; */
 }
 
 
@@ -167,12 +173,13 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 20px 0% 20px 2%;
     font-size: 14px;
+    /* margin-left: 200px; */
 }
 
 footer div {
@@ -181,6 +188,7 @@ footer div {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 0px 60px 0px 0px;
 }
 
 
