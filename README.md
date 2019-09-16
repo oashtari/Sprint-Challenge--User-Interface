@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+ANSWER: It is a method to make sure the tags on the page have meaning, example being that a p tag represents a paragraph of content/text, where as a div tag is rather broad in its definition, so it is not semantic.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+ANSWER: 1. display block is a block encompassing the whole width of the page, while inline would only utilize the space necessary. 2. Block elements also force a line break in the page, while you could have multiple inline elements on the same line.
 
 3. What are the 4 areas of the box model?
+ANSWER: Margin, Border, Padding, Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+ANSWER: on the Cross Axis.
 
 5. Explain why git is valuable to a team of developers.
+ANSWER: While there are so many reasons git is great, one simple reason is version control. It enables team members to be able to tell what version of the code they're working on, so they can stay organized and not repeat each others work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,8 +55,8 @@ You are expected to be able to answer all these questions. Your responses contri
 <!-- - [ ] Add your project manager as collaborator on Github. -->
 <!-- - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!). -->
 <!-- - [ ] Create a new branch: git checkout -b `<firstName-lastName>`. -->
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+<!-- - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ ] Push commits: git push origin `<firstName-lastName>`. -->
  
 Follow these steps for completing your project.
 
@@ -104,7 +109,3 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
-
-
-MOVE LAMBDA IMAGE
-FIX BOTTOM NAV ALIGNMENT

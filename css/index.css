@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-/* NAVIGATION SECTION  */
+/* TOP NAVIGATION SECTION  */
 
 nav {
 	/* padding-left: 10px;
@@ -80,9 +80,6 @@ nav {
     /* justify-content: space-evenly; */
 
 }
-
-
-
 
 .nav_class  {
     width: 100%;
@@ -106,6 +103,8 @@ nav {
 	background-size: cover;
 	height: 250px;
 }
+
+/* CONTENT SECTION  */
 
 .container {
     width: 800px;
@@ -167,6 +166,8 @@ nav {
     padding-right: 0;
 }
 
+/* FOOTER SECTION  */
+
 footer {
     width: 100%;
     background: black;
@@ -198,12 +199,12 @@ footer nav a {
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
 }
+
 .first_section {
  display: flex;
  padding-top: 20px;
  padding-bottom: 20px;
  border-bottom: 1px dashed black;
- 
 }
 
 .second_section {
